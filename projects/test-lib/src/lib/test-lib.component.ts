@@ -4,13 +4,15 @@ import { Component, OnInit } from '@angular/core';
   selector: 'lib-test-lib',
   template: `
     <p i18n>
-      test-lib works!
+      some html translation from test-lib
     </p>
   `,
   styles: [
   ]
 })
 export class TestLibComponent implements OnInit {
+
+  test = $localize`some typescript translation from test-lib`;
 
   constructor() { }
 
