@@ -11,13 +11,14 @@
         <note priority="1" from="description">some description 1</note>
         <note priority="1" from="meaning">some meaning 1</note>
       </trans-unit>
-      <trans-unit id="2895274767436762140" datatype="html">
-        <source> some description 2:some typescript translation from test-lib</source>
+      <trans-unit id="1427801562769421609" datatype="html">
+        <source>some typescript translation from test-lib</source>
         <context-group purpose="location">
           <context context-type="sourcefile">projects/test-lib/src/lib/test-lib.component.ts</context>
           <context context-type="linenumber">15</context>
         </context-group>
-        <note priority="1" from="description">some meaning 2</note>
+        <note priority="1" from="description">some description 2</note>
+        <note priority="1" from="meaning">some meaning 2</note>
       </trans-unit>
     </body>
   </file>

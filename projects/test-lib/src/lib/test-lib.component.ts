@@ -12,7 +12,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestLibComponent implements OnInit {
 
-  test = $localize`:some meaning 2: some description 2:some typescript translation from test-lib`;
+  test = $localize`:some meaning 2|some description 2:some typescript translation from test-lib`;
 
   constructor() { }
 
